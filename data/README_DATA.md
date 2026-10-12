@@ -21,7 +21,7 @@ Note: `influence` and `coop_tendency` are the generator's own parameters. Using 
 `source`, `target`: directed interaction between two nodes.
 
 ## ml_node_label_dataset_v6_3.csv
-`member_id`, `label_node_expand`: 1 if the node's activity spread beyond its first hop in the simulation.
+`member_id`, `label_node_expand`: the generator's binary expansion label (1 = the node's activity expanded the simulated cascade).
 
 ## bdf_f1pple_score_v0.3.csv
 `member_id`, `f1pple_score`: Ripple score in [0, 1].
